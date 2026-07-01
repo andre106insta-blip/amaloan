@@ -1,0 +1,20 @@
+{
+  "name": "amaloan-indexer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AMALoan x402-Solana income indexer — finds income-earning AI agents, scores them, ranks prospects.",
+  "scripts": {
+    "index": "tsx src/cli.ts",
+    "serve": "tsx src/api.ts",
+    "probe": "tsx src/probe.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.5"
+  }
+}
